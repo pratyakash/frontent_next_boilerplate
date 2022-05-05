@@ -1,0 +1,17 @@
+@mixin for-mobile {
+  @media (min-width: 600px) {
+    @content;
+  }
+}
+
+@mixin for-desktop {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin custom-media-query($min, $max) {
+  @media (min-width: $min) and (max-width: $max) {
+    @content;
+  }
+}

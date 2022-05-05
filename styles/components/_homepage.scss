@@ -1,0 +1,16 @@
+.homepage__wrapper {
+    height: 100vh;
+    position: relative;
+
+    svg {
+        position: absolute;
+        bottom: 0;
+        transform:rotate(0deg); 
+        transition: 0.3s
+
+        path {
+            transform:translate(0, 0px); 
+            opacity:1;
+        }
+    }
+}
