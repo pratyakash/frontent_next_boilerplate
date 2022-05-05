@@ -1,1 +1,1 @@
-# giveaway_manager_fe
+# frontent_next_boilerplate
